@@ -14,7 +14,7 @@ insert_sql = (
     "INSERT INTO KARYAWAN (FIRST_NAME, LAST_NAME, AGE, SEX, INCOME)"
     "VALUES (%s, %s, %s, %s, %s)"
 )
-values = ("Bian", "Suryoprakoso", 22, "Male", 10000000)
+values = ("Zulfikar", "Pramasta", 22, "Male", 10000000)
 
 try:
     # Eksekusi SQL Command 
